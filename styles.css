@@ -13,3 +13,20 @@ input[type=checkbox] {
   progress {
     accent-color: hsl(39, 100%, 50%);
   }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+    background-image: url('https://static.vecteezy.com/system/resources/previews/006/557/555/original/abstract-bubbles-on-a-red-background-free-vector.jpg');
+                       
+    height: 100%;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
