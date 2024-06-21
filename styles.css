@@ -12,7 +12,6 @@ body {
     padding: 20px;
 }
 
-/* Header styles */
 header {
     background-color: #35424a;
     color: white;
@@ -23,8 +22,8 @@ header {
 /* Unordered list styles */
 ul {
     padding: 10px 20px;
-    background-color: #ffffff;
-    border: 1px solid #ddd;
+    background-color: #e3e0dc;
+    border: 8px solid #f4a45f;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }

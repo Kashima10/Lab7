@@ -5,15 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dynamic To-Do List </title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+
 </head>
 <body>
+    <form id="taskForm">
+        <label for="taskInput">Add a new task:</label>
+        <input type="text" id="taskInput" name="taskInput" placeholder="Enter your task here">
+        <button type="submit">Add Task</button>
+    </form>
     <p class="p1"> Today I have errands to run. I only get a moments at a time to run errands. So I have to Utilize my time wisely.</p>
     <ul> 
-        <h1> Today's To-Do List</h1>
-<li>Clean Room</li>
-<li>Clean Car</li>
-<li>Get Groceries</li>
+        <div><h1> Today's To-Do List</h1>
+<li><p>Clean Room</p></li>
+<li><p>Clean Car</p></li>
+<li><p>Get Groceries</p></li>
 </ul>
+</div>
 
     <br>
     <br>
@@ -28,6 +35,33 @@
         <caption> Calander</caption>
     </table>
 </div>
-    
+<main>
+    <form id="task-form">
+        <input type="text" id="task-input" placeholder="Enter a new task" required>
+        <button type="submit">Add Task</button>
+    </form>
+    <ul id="task-list"></ul>
+</main>
+<script src="script.js"></script>
+header>
+       <div>
+        <ol>
+         <h1>Task List</h1>
+            <li> Study 2hrs</li>
+            <li> Work Out 1 hour</li>
+            <li>Read Email</li>
+            <li> Laundry</li>
+       </ol>
+    </div> 
+
+    </header>
+    <main>
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="Enter a new task" required>
+            <button type="submit">Add Task</button>
+        </form>
+        <ul id="task-list"></ul>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
