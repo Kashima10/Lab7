@@ -1,32 +1,45 @@
-input[type=checkbox] {
-    accent-color: rgb(232, 168, 89);
-  }
-  
-  input[type=radio] {
-    accent-color: rgb(129, 189, 129);
-  }
-  
-  input[type=range] {
-    accent-color: rgb(172, 172, 208);
-  }
-  
-  progress {
-    accent-color: hsl(39, 100%, 50%);
-  }
-  body {
-    font-family: Arial, sans-serif;
+/* Basic reset */
+body, ul, li {
     margin: 0;
     padding: 0;
-   
-    background-image: url('https://static.vecteezy.com/system/resources/previews/006/557/555/original/abstract-bubbles-on-a-red-background-free-vector.jpg');
-                       
-    height: 100%;
-   
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0 20px;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Unordered list styles */
+ul {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+/* Additional styles for hover effect */
+li:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
 }
